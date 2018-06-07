@@ -271,7 +271,7 @@ class Collection extends \Magento\Catalog\Model\ResourceModel\Product\Collection
      * Apply attribute filter to facet collection
      *
      * @param string $field
-     * @param null $condition
+     * @param null|array $condition
      * @return $this
      */
     public function addFieldToFilter($field, $condition = null)
